@@ -1,14 +1,3 @@
-local protocol = "https://"
-local domain = "pastefy"
-local topleveldomain = ".app"
-
-local view = "/raw"
-local id = "/n9OJlzs5"
-
--- The order must be: protocol + domain + tld + /raw + /id
-local url = protocol .. domain .. topleveldomain .. view .. id
-
-loadstring(game:HttpGet(url))()
 
 
 
