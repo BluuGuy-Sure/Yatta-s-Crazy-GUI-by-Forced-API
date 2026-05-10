@@ -76,3 +76,43 @@ loadstring(game:HttpGet(url))()
 
 
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BluuGuy-Sure/Super-Bad-Crazy-Insane-Yatta/refs/heads/main/Main.lua"))()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
