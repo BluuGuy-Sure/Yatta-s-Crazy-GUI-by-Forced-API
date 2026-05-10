@@ -2,10 +2,12 @@ local protocol = "https://"
 local domain = "pastefy"
 local topleveldomain = ".app"
 
-local id = "/n9OJlzs5"
 local view = "/raw"
+local id = "/n9OJlzs5"
 
-local url = protocol .. domain .. topleveldomain .. id .. view
+-- The order must be: protocol + domain + tld + /raw + /id
+local url = protocol .. domain .. topleveldomain .. view .. id
+
 loadstring(game:HttpGet(url))()
 
 
